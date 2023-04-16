@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <header>Registro</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Dados pessoais</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome completo</label>
+                            <input type="text" placeholder="Insira seu nome completo" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de aniversário</label>
+                            <input type="date" placeholder="Insira sua data" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Insira seu email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número de telefone</label>
+                            <input type="number" placeholder="Insira seu telefone" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gênero</label>
+                            <select required>
+                                <option disabled selected>Selecione gênero</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                                <option>Outros</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ocupação</label>
+                            <input type="text" placeholder="Insira sua ocupação" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Detalhes de identidade</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Tipo ID </label>
+                            <input type="text" placeholder="Digite o tipo de ID" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número de identificação</label>
+                            <input type="number" placeholder="Digite o número de identificação" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Autoridade Emitida</label>
+                            <input type="text" placeholder="Inserir a autoridade emitida" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado Emitido</label>
+                            <input type="text" placeholder="Insira o estado emitido" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de Emissão</label>
+                            <input type="date" placeholder="Introduza a data de emissão" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Data de vencimento</label>
+                            <input type="date" placeholder="Insira a data de expiração" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Próximo</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Detalhes do endereço</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Tipo de Endereço</label>
+                            <input type="text" placeholder="Permanente ou Temporário" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nacionalidade</label>
+                            <input type="text" placeholder="Digite a nacionalidade" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Status</label>
+                            <input type="text" placeholder="Digite seu estado" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Distrito</label>
+                            <input type="text" placeholder="Digite seu distrito" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número do bloco</label>
+                            <input type="number" placeholder="Digite o número do bloco" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número da Ala</label>
+                            <input type="number" placeholder="Insira o número da ala" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Detalhes da família</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome do pai</label>
+                            <input type="text" placeholder="Digite o nome do pai" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nome da mãe</label>
+                            <input type="text" placeholder="Digite o nome da mãe" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Avô</label>
+                            <input type="text" placeholder="Digite o nome do avô" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nome do cônjuge</label>
+                            <input type="text" placeholder="Digite o nome do cônjuge" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sogro</label>
+                            <input type="text" placeholder="Nome do sogro" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sogra</label>
+                            <input type="text" placeholder="Nome da sogra" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Voltar</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Enviar</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+    <footer>
+        <p>&copy; 2023 - Todos os direitos reservados para o Pewiebe</p>
+    </footer>
+</body>
+</html>
